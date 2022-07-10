@@ -35,7 +35,7 @@ func main() {
 
 	//sendNotification(u) //COMPILE ERROR!!!
 
-	// ./example1.go:36: cannot use u (type user) as type notifier in argument to sendNotification:
+	// ./pubsub.go:36: cannot use u (type user) as type notifier in argument to sendNotification:
 	//   user does not implement notifier (notify method has pointer receiver)
 
 	sendNotification(&u) // since receiver is defined as pointer.Line 22.
