@@ -1,2 +1,4 @@
 github.com/ardanlabs/gotraining v0.0.0-20220617144523-1125c60bcc12 h1:A/XdvwAHFHM4fuXsOf03nqYYIUdc3ImkJ757Km3KJ+Q=
 github.com/ardanlabs/gotraining v0.0.0-20220617144523-1125c60bcc12/go.mod h1:uyligBvXgIRh1z8imUYgj5HeLMwbgAr2UcJG8OFf/WQ=
+github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
+github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
