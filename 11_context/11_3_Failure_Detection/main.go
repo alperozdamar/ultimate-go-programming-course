@@ -12,7 +12,7 @@ import (
 	"sync"
 	"time"
 
-	log "github.com/alperozdamar/ultimate-go-programming-course/11_context/11_3_Failure_Detection/logger/logger.go"
+	log "github.com/alperozdamar/ultimate-go-programming-course/tree/master/11_context/11_3_Failure_Detection/logger"
 )
 
 // device allows us to mock a device we write logs to.

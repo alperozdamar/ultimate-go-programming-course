@@ -55,16 +55,16 @@ func main() {
 WARNING: DATA RACE
 Read at 0x0000011a5118 by goroutine 7:
   main.main.func1()
-      /Users/bill/code/go/src/github.com/ardanlabs/gotraining/topics/go/concurrency/data_race/example1/example1.go:33 +0x4e
+      /Users/bill/code/go/src/github.com/ardanlabs/gotraining/topics/go/concurrency/data_race/example1/example1_test.go:33 +0x4e
 Previous write at 0x0000011a5118 by goroutine 6:
   main.main.func1()
-      /Users/bill/code/go/src/github.com/ardanlabs/gotraining/topics/go/concurrency/data_race/example1/example1.go:39 +0x6d
+      /Users/bill/code/go/src/github.com/ardanlabs/gotraining/topics/go/concurrency/data_race/example1/example1_test.go:39 +0x6d
 Goroutine 7 (running) created at:
   main.main()
-      /Users/bill/code/go/src/github.com/ardanlabs/gotraining/topics/go/concurrency/data_race/example1/example1.go:43 +0xc3
+      /Users/bill/code/go/src/github.com/ardanlabs/gotraining/topics/go/concurrency/data_race/example1/example1_test.go:43 +0xc3
 Goroutine 6 (finished) created at:
   main.main()
-      /Users/bill/code/go/src/github.com/ardanlabs/gotraining/topics/go/concurrency/data_race/example1/example1.go:43 +0xc3
+      /Users/bill/code/go/src/github.com/ardanlabs/gotraining/topics/go/concurrency/data_race/example1/example1_test.go:43 +0xc3
 ==================
 Final Counter: 4
 Found 1 data race(s)
